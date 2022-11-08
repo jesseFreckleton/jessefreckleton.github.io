@@ -1,0 +1,8 @@
+.fglogo {
+    transition: all .5s;
+}
+
+svg:hover .fglogo {
+    fill: rgb(9, 190, 190);
+    transform: scale(1.3);
+}
