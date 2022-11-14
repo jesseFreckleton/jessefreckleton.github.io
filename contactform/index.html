@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Jesse Hanson
+    November 14th, 2022 -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Jesse Hanson" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Jesse Hanson web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:jessehanson1@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <div>
+                <label for="company">Company:</label><br>
+                <input type="text" name="company" id="company" placeholder="Company Name" value="" />
+            </div>
+            <div>
+                <label for="person-to-contact">Person to contact:</label><br>
+                <input type="text" name="person-to-contact" id="person-to-contact" placeholder="Your Name" value="" />
+            </div>	
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Your Email">
+            </div>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <label for="employment">Type of Position:</label>
+            <select name="employment" id="employment">
+                <option value="Internship">Internship</option>
+                <option value="Entry Level">Entry Level</option>
+                <option value="Developer">Developer</option>
+                <option value="Operations Manager">Operations Manager</option>
+            </select><br><br>
+
+            <label for="referral">How did you find me?</label><br><br>
+            <input type="radio" name="referral" id="linkedin" value="LinkedIn" /> <label for="linkedin">LinkedIn</label>
+            <input type="radio" name="referral" id="job-fair" value="Job Fair" /> <label for="job-fair">Job Fair</label>
+            <input type="radio" name="referral" id="cwi-cp" value="CWI Corporate Partner" /> <label for="cwi-cp">CWI Corporate Partner</label>
+
+            <div>
+                <textarea name="comment" placeholder="Your message goes here..."></textarea>
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+</html>
