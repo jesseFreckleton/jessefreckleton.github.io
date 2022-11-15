@@ -1,0 +1,14 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'plasma-drip-BRK';
+    src: url('../fonts/plasdrip-webfont.woff') format('woff'),
+         url('../fonts/plasdrip-webfont.woff2') format('woff2'), url('../fonts/plasdrpe-webfont.woff') format('woff'),
+         url('../fonts/plasdrpe-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'plasma-drip-BRK', "Times New Roman", serif;
+}
