@@ -1,0 +1,62 @@
+
+/*Jesse Hanson
+November 17th, 2022 */
+@font-face {
+    font-family: 'kaushanscript';
+    src: url(../fonts/kaushanscript-regular-webfont.woff) format('woff'),
+         url(../fonts/kaushanscript-regular-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-image: url(../images/jewelry.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+main {
+	background: linear-gradient( #FFFFFF , #F0F9E6);
+	margin: 20px;
+	padding: 10px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	max-width: 70%;
+	margin: auto;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+img {
+	float: left;
+	border-radius: 100px;
+}
+.addrightmargin {
+	margin-right: 10%;
+}
+nav {
+	clear: left;
+}
+nav ul {
+	list-style-type: none;
+	font-size: 1.5em;
+}
+h1 {
+	font-family: 'Pacifico';
+	font-size: 4em;
+}
+h2 {
+	font-family: 'kaushanscript';
+	font-style: italic;
+	font-size: 2em;
+}
