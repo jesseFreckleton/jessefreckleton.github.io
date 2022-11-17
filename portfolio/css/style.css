@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(190, 254, 236);
+}
+footer {
+    margin-top: auto;
+}
