@@ -1,12 +1,3 @@
-.fglogo {
-    transition: all .5s;
-}
-
-svg:hover .fglogo {
-    fill: rgb(9, 190, 190);
-    transform: scale(1.3);
-}
-
 .projecttitle {
     width: 90%;
     margin: 0 auto;
@@ -17,23 +8,24 @@ svg:hover .fglogo {
     margin-bottom: 5px;
     border-radius: 5px;
 }
-
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .projectbox {
     border: 2px solid black;
-    float: left;
     margin: 10px;
-    width: 31%;
+    width: 40%;
     text-align: center;
     background: white;
 }
-.swimg {
-    max-width: auto;
+.fglogo {
+    transition: all .5s;
 }
-.essayimg {
-    max-width: 97.5%;
-}
-.essaypiccaption {
-    font-size: small;
+svg:hover .fglogo {
+    fill: rgb(9, 190, 190);
+    transform: scale(1.3);
 }
 .projectbox a.button {
     display: block;
