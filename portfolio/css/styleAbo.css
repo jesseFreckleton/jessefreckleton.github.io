@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    border-radius: .25rem;
+    background-color: #4d9078ff;
+    color: #e4dfdaff;
+}
+p {
+    border-radius: .25rem;
+    background-color: #4d9078ff;
+    color: #e4dfdaff;
+    align-self: flex-start;
+}

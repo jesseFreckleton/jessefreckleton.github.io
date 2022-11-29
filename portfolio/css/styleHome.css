@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+h2 {
+    border-radius: .25rem;
+    background-color: #4d9078ff;
+    color: #e4dfdaff;
+}
+p {
+    border-radius: .25rem;
+    background-color: #4d9078ff;
+    color: #e4dfdaff;
+}

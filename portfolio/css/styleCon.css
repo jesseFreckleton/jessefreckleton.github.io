@@ -1,0 +1,13 @@
+form div {
+    margin: 10px;
+}
+form {
+    border: 2px solid #e4dfdaff;
+    border-radius: 1rem;
+    margin: auto;
+    width: auto;
+    display: inline-block;
+}
+.btn {
+    text-align: center;
+}
