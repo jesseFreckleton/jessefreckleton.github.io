@@ -1,7 +1,79 @@
+/*Nav Start*/
+.menulist {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 0 0 3.125rem;
+}
+.collapsible-menu {
+    padding: 0;
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-left: .10rem solid black;
+    border-right: .10rem solid black;
+    border-top: .10rem solid black;
+    width: 15%;
+    background-color: #2d3a3aff;
+}
+.collapsible-menu li {
+    border-bottom: .10rem solid black;
+}
+.collapsible-menu li a:link {
+    color: #4d9078ff;
+}
+.collapsible-menu a {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.collapsible-menu label {
+    display: flex;
+    cursor: pointer;
+    background: url(../Image/iconmonstr-menu-lined-32.png) no-repeat left center;
+    padding: 7rem 0 1rem 1.5rem;
+}
+input#menu {
+    display: none;
+}
+input:checked +label {
+    background-image: url(../Image/iconmonstr-menu-drop-down-lined-32.png);
+}
+input:checked ~ .menulist {
+    max-height: 100%;
+}
+/*Nav End*/
+
 body {
     display: flex;
     flex-direction: column;
-    background: rgb(190, 254, 236);
+    background: linear-gradient(to right,#e4dfdaff, #272727ff 20%);
+    font-family: 'Syne Mono', monospace;
+}
+
+/* Pseudo-Classes Start */
+a:link {
+    color: #7f7effff;
+}
+a:visited {
+    color: #4d9078ff;
+}
+a:hover {
+    color: #e4dfdaff;
+}
+a:active {
+    background-color: #4d9078ff;
+}
+/* Pseudo-Classes End */
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: .40rem;
 }
 footer {
     margin-top: auto;
