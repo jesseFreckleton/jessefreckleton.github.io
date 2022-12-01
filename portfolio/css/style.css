@@ -1,8 +1,8 @@
 /* Custom Font */
 @font-face {
     font-family: 'profont';
-    src: url('/fonts/profontwindows-webfont.woff') format('woff'),
-         url('/fonts/profontwindows-webfont.woff2') format('woff2');
+    src: url('../fonts/profontwindows-webfont.woff') format('woff'),
+         url('../fonts/profontwindows-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
