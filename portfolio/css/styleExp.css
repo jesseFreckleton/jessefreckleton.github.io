@@ -1,24 +1,40 @@
+/* Table Styling */
+table {
+    margin-bottom: 2rem;
+}
+tr {
+    border: .5rem solid #2d3a3aff;
+    border-radius: .25rem;
+    background-color: #4d9078ff;
+    color: #e4dfdaff;
+    box-shadow: .5rem .5rem .25rem rgba(77, 144, 121, 0.549);
+}
+
+/* Project Box Styling */
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    gap: .5rem;
+}
+.projectbox {
+    border: 2px solid #272727ff;;
+    margin: auto;
+    text-align: center;
+    background: #e4dfdaff;
+}
 .projecttitle {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    color: whitesmoke;
-    background: rgb(84, 10, 84);
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: .25rem;
+    background-color: #7f7effff;
+    color: #e4dfdaff;
 }
-.project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.projectbox {
-    border: 2px solid black;
-    margin: 10px;
-    width: 40%;
-    text-align: center;
-    background: white;
+.projectbox svg {
+    transform: scale(.5, .5);
+    margin: -110px;
 }
 .fglogo {
     transition: all .5s;
@@ -27,14 +43,29 @@ svg:hover .fglogo {
     fill: rgb(9, 190, 190);
     transform: scale(1.3);
 }
+.photocaption {
+    background-color: #7f7effff;
+    margin: 0;
+    font-size: 10px;
+}
 .projectbox a.button {
     display: block;
-    width: 40%;
-    margin: 10px auto;
-    color: whitesmoke;
-    background: rgb(84, 10, 84);
+    width: 75%;
+    margin: auto;
+    margin-bottom: 5px;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
+    border-radius: .25rem;
+    background-color: #7f7effff;
+    color: #e4dfdaff;
+}
+.projectbox a:link {
+    color: #272727ff;
+}
+.projectbox a:hover {
+    color: rgba(45, 58, 58, 0.778);
+}
+.projectbox a:visited {
+    color: #e4dfdaff;
 }
