@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <!--Jesse Hanson
-November 2, 2022-->
+November 30th, 2022-->
 <html lang="en">
     <head>
         <title>Contact</title>
         <meta charset="UTF-8"/>
-        <meta name="description" content="Jesse Hanson - Software App Designer - Boise, Idaho"/>
+        <meta name="description" content="Contact Jesse Freckleton - Software App Designer - Boise, Idaho"/>
         <meta name="keywords" content="UX UI product software"/>
-        <meta name="author" content="Jesse Hanson"/>
+        <meta name="author" content="Jesse Freckleton"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/styleCon.css">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/styleCon.css"/>
+
         <!--Fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"/>
         <!--Fonts End-->
     </head>
     <body>
         <header role="banner">
             <nav role="main">
-                <a href="index.html"><img class="logo" src="Image/JFtransparentcrop.png"></a>
+                <a href="index.html"><img src="Image/JFtransparentcrop.png" alt="Jesse Freckleton's logo - Her initials with a computer mouse hanging from the F"></a>
                 <br>
                 <div class="collapsible-menu">
                     <input type="checkbox" id="menu">
@@ -37,30 +38,31 @@ November 2, 2022-->
             </nav>
         </header>
         <main>
-            <form name="Contact Me" method="post">
-                <div>
-                    <label for="firstname">First Name: </label><br>
-                    <input type="text" name="firstname" id="firstname" placeholder="Your first name..." value="" />
-                </div>
-                <div>
-                    <label for="lastname">Last Name:</label><br>
-                    <input type="text" name="lastname" id="lastname" placeholder="Your last name..." value="" />
-                </div>	
-                <div>
-                    <label for="email">Email:</label><br>
-                    <input type="email" name="email" id="email" placeholder="Your email...">
-                </div>
-                <div>
-                    <label for="phone">Phone Number:</label><br>
-                    <input type="tel" name="phone" id="phone" placeholder="Your phone number..." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                </div>
-                <div>
-                    <textarea name="comment" placeholder="Your message goes here..."></textarea>
-                </div>
-                <input type="submit" id="submit" value="Submit" class="btn">
-            </form>
-            <!--<h2>Contact Me</h2>
-                <p>I will graduate <u>spring of 2024</u> with my Associates Degree in Software Development. Contact me at <a href="mailto:hanson.jessica99@gmail.com">hanson.jessica99@gmail.com</a> or (801) 661-7715 to discuss employment opportunities.</p>-->
+            <h2>Contact Me</h2>
+                <form name="contactme" method="post">
+                    <div>
+                        <label for="firstname">First Name:</label><br>
+                        <input type="text" name="firstname" id="firstname" placeholder="Your first name..." value=""/>
+                    </div>
+                    <div>
+                        <label for="lastname">Last Name:</label><br>
+                        <input type="text" name="lastname" id="lastname" placeholder="Your last name..." value=""/>
+                    </div>	
+                    <div>
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email" placeholder="Your email..."/>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" name="phone" id="phone" placeholder="Your phone number..." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                    </div>
+                    <div>
+                        <textarea name="comment" placeholder="Your message goes here..."></textarea>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" id="submit" value="Submit"/>
+                    </div>
+                </form>
         </main>
         <footer>
             <hr>
