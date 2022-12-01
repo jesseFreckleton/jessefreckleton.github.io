@@ -2,11 +2,35 @@ form div {
     margin: 10px;
 }
 form {
-    border: 2px solid #e4dfdaff;
+    border: .15rem solid #4d9078ff;
     border-radius: 1rem;
-    margin: auto;
-    width: auto;
-    display: inline-block;
+    margin: 1rem;
+    padding: .30rem;
+    color: #e4dfdaff;
+}
+input {
+    border-radius: .25rem;
+    background-color: #2d3a3aff;
+    color: #e4dfdaff;
+    line-height: 2rem;
+    width: 25rem;
+    transition: all .5s ease;
+}
+input:focus {
+    font-size: 1.35rem;
+    padding: 10px;
+    border-radius: .25rem;
+    border: 2px solid #7f7effff;
+    outline: none;
+}
+textarea {
+    height: 10rem;
+    width: 25rem;
+}
+#submit {
+    text-align: center;
+    height: auto;
+    width: 5rem;
 }
 .btn {
     text-align: center;
