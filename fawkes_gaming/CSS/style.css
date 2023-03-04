@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    white,
+    rgb(0, 0, 0)
+  );
+}
+
+/*Nav Start*/
+ul {
+  background-image: radial-gradient(white, rgb(39, 39, 39));
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: rgb(9, 190, 190);
+}
+nav ul li a:focus {
+  color: rgb(68, 67, 67);
+}
+/*Nav End*/
+
+.projectbox svg {
+  transform: scale(0.5, 0.5);
+  margin: -110px;
+}
+.fglogo {
+  transition: all 0.5s;
+}
+svg:hover .fglogo {
+  fill: rgb(9, 190, 190);
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+/* Footer Start */
+footer {
+  display: block;
+  text-align: center;
+}
+/* Footer End */

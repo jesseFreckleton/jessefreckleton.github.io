@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    white,
+    rgb(0, 0, 0)
+  );
+}
+
+/*Nav Start*/
+ul {
+  background-image: radial-gradient(white, rgb(39, 39, 39));
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: rgb(9, 190, 190);
+}
+nav ul li a:focus {
+  color: rgb(68, 67, 67);
+}
+/*Nav End*/
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 300px;
+  fill: rgb(15, 15, 15);
+}
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 150%;
+}
+
+/* Drop down FAQs */
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 120%;
+  padding: 0.25em 0 0.25em 25px;
+  background: url(../image/caret_up.png) no-repeat right;
+  background-position: 75% 25%;
+}
+h2.minus {
+  background: url(../image/caret_down.png) no-repeat right;
+}
+#faqs h2 a:hover,
+a:focus {
+  color: rgb(68, 67, 67);
+}
+#ourJourneyHighlights {
+  padding-left: 45px;
+  background-image: none;
+}
+#ourJourneyHighlights li {
+  list-style-type: square;
+  padding-bottom: 0.25em;
+  list-style-position: inside;
+}
+#faqs a {
+  color: black;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+div {
+  display: none;
+  text-align: center;
+}
+p {
+  padding-bottom: 0.25em;
+  padding-left: 25px;
+}
+/* End Drop down FAQs */
+
+/* Footer Start */
+footer {
+  display: block;
+  text-align: center;
+}
+hr {
+  margin-top: 1em;
+}
+/* Footer End */

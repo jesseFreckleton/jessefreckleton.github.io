@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    white,
+    rgb(0, 0, 0)
+  );
+}
+
+/*Nav Start*/
+ul {
+  background-image: radial-gradient(white, rgb(39, 39, 39));
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: rgb(9, 190, 190);
+}
+nav ul li a:focus {
+  color: rgb(68, 67, 67);
+}
+/*Nav End*/
+
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  display: block;
+  text-align: center;
+}
+
+/* Newsletter Form */
+#newsletter_description {
+  text-align: center;
+}
+#div_newsletter_form {
+  display: block;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+div {
+  margin-bottom: 1em;
+}
+label {
+  display: inline-block;
+  width: 11em;
+  text-align: right;
+  vertical-align: top;
+}
+input,
+select,
+textarea {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+select {
+  width: 13em;
+}
+textarea {
+  height: 5em;
+  width: 20em;
+}
+span {
+  color: red;
+  background-image: none;
+}
+#newsletter_list:hover {
+  color: rgb(9, 190, 190);
+}
+#newsletter_list:focus {
+  color: rgb(68, 67, 67);
+}
+#reset_form:hover {
+  color: rgb(9, 190, 190);
+}
+#reset_form:focus {
+  color: rgb(68, 67, 67);
+}
+/* Newsletter Form */
+
+/* Footer Start */
+footer {
+  display: block;
+  text-align: center;
+}
+hr {
+  margin-top: 1em;
+}
+/* Footer End */
