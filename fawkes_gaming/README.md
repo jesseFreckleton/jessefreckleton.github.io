@@ -44,4 +44,24 @@ What I've Done:
 -Updated the FAQ dropdown with JQuery, now using slideToggle.
 -Added meaningful content to the 'Featured' section on the home page.
 
--Side Note: The images will link to video files in a new tab on Project 4. Working on cutting and compressing the video clips this week.
+Updated - 3/6/2023
+Project #4 - Fawkes Gaming (Website for a fake business)
+
+Project Specifications:
+
+• In this assignment, you will add an additional page/section to your project site. For features, add at least three jQuery plugins/widgets, and ensure form validation is brought to our current standards. Utilize yor knowledge of jQuery from this week in these pages. Ensure that all pages have meaningful content, except for paragraphs. You may use Lorem Ipsum in <p> tages.
+
+What to Do
+1. Add 1 additional page/section to your project site(for a total of 5 pages/sections).
+2. Include three new jQuery features.
+3. Have meaningful content on al pages (except <p> tags).
+
+What I've Done:
+
+-Updated the home and games page so that the videos will play in a new tab.
+-Added Twitch and Youtube links to the footer on all pages.
+-Added merchandise content to Fawkes's page, styled/animated it utilizing lightbox jQuery plug in.
+-Updated the FAQ page to become the about page and have an accordion widget.
+-Updated the contact us page to include the tabs widget. Also added a newsletter checkbox option.
+-This then enabled me to remove the newsletter page entirely. In detail, I removed newsletter.html, newsletter_confirm.html, newsletter.css, and newsletter.js.
+-Updated the validation on the contact form as well.
