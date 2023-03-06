@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    white,
+    rgb(0, 0, 0)
+  );
+}
+
+/*Nav Start*/
+ul {
+  background-image: radial-gradient(white, rgb(39, 39, 39));
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: rgb(9, 190, 190);
+}
+nav ul li a:focus {
+  color: rgb(68, 67, 67);
+}
+/*Nav End*/
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+p a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+p a:hover {
+  color: rgb(9, 190, 190);
+}
+p a:focus {
+  color: rgb(68, 67, 67);
+}
+
+/* Footer Start */
+footer {
+  display: block;
+  text-align: center;
+}
+hr {
+  margin-top: 1em;
+}
+/* Footer End */
