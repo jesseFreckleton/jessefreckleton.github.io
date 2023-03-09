@@ -12,115 +12,103 @@
     <nav>
       <ul>
         <li><a href="home.html">Home</a></li>
-        <li><a href="games.html">Games</a></li>
-        <li><a href="fawkess.html">Fawkes's</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="games.html">Game Clips</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
       </ul>
     </nav>
     <main>
-      <img id="logo" alt="Fawkes Gaming Logo" src="image/fawkesgaming.svg" />
-      <h1>Contact Us</h1>
-      <img id="banner" src="image/line.png" />
-      <!--Contact/Newsletter Form-->
-      <form
-          id="contact_form"
-          name="contact_form"
-          action="confirm.html"
-          method="post"
-        >
-      <div id="tabs">
-        <ul>
-          <li><a href="#tabs-1">Information</a></li>
-          <li><a href="#tabs-2">Message</a></li>
-        </ul>
-        <!--Information Tab-->
-      <div id="tabs-1">
-        <div>
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name" />
-          <span>*</span>
-        </div>
-          <div>
-            <label for="email">E-Mail:</label>
-            <input type="text" name="email" id="email" />
-            <span>*</span>
+      <a href="home.html"><img id="logo" alt="Fawkes Gaming Logo" src="image/fawkesgaming.svg" /></a>
+      <h1>Contact</h1>
+      <img class="banner" src="image/line.png" alt="Solid turqoise line to seperate page content" />
+      <!--Contact Form-->
+      <div id="wrapper">
+        <form id="contact_form" name="contact_form" action="confirm.html" method="post">
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1" id="detailsTab">Details<span>*</span></a></li>
+              <li><a href="#tabs-2" id="messageTab">Message<span>*</span></a></li>
+            </ul>
+            <!--Details Tab-->
+            <div id="tabs-1">
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+                <span>*</span>
+              </div>
+              <div>
+                <label for="emailAddress">E-Mail:</label>
+                <input type="text" name="emailAddress" id="emailAddress" />
+                <span>*</span>
+              </div>
+              <div>
+                <label for="phone">Mobile Phone:</label>
+                <input type="text" name="phone" id="phone" />
+                <span>*</span>
+              </div>
+              <div>
+                <label for="country">Country:</label>
+                  <select name="country" id="country">
+                    <option value="">Select a country</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                    <option>Mexico</option>
+                  </select>
+              </div>
+              <div><label class="currentDate"></label></div>
+            </div>
+            <!--End Details Tab-->
+            <!--Message Tab-->
+            <div id="tabs-2">
+              <div>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+                <span>*</span>
+              </div>
+              <div>
+                <label>Contact me by:</label>
+                <input type="radio" name="contact" id="text" value="text" checked />Text
+                <input type="radio" name="contact" id="mobile" value="text" />Mobile phone
+                <input type="radio" name="contact" id="email" value="email" />Email
+                <input type="radio" name="contact" id="none" value="none" />Don't contact me
+              </div>
+              <div><label class="currentDate"></label></div>
+            </div>
+            <!--End Message Tab-->
+            <div id="submit_button">
+              <label>&nbsp;</label>
+              <input type="submit" id="submit" value="Submit" />
+              <input type="button" id="clear" value="Clear">
+            </div>
           </div>
-          <div>
-            <label for="phone">Mobile Phone:</label>
-            <input type="text" name="phone" id="phone" />
-            <span>*</span>
-          </div>
-          <div>
-            <label for="country">Country:</label>
-            <select name="country" id="country">
-              <option value="">Select a country</option>
-              <option>USA</option>
-              <option>Canada</option>
-              <option>Mexico</option>
-            </select>
-          </div>
-          <div>
-            <label>Contact me by:</label>
-            <input
-              type="radio"
-              name="contact"
-              id="text"
-              value="text"
-              checked
-            />Text
-            <input type="radio" name="contact" id="mobile" value="text" />Mobile
-            phone
-            <input type="radio" name="contact" id="email" value="email" />Email
-            <input type="radio" name="contact" id="none" value="none" />Don't
-            contact me
-          </div>
+        </form>
+        <!--End Contact Form-->
       </div>
-      <!--End Information Tab-->
-      <!--Message Tab-->
-      <div id="tabs-2">
-        <div>
-          <label for="message">Message:</label>
-          <textarea name="message" id="message"></textarea>
-          <span>*</span>
-        </div>
-          <div>
-            <label for="newsletter">Newsletter:</label>
-            <input type="checkbox" name="newsletter" id="newsletter" />
-          </div>
-      </div>
-    </div>
-    <div id="submit_button">
-      <label>&nbsp;</label>
-      <input type="submit" id="submit" value="Submit" />
-    </div>
-    <!--End Message Tab-->
-    </form>
-    <!--End Contact/Newsletter Form-->
     </main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="java_script/jquery-ui.min.js"></script>
     <script src="java_script/contact.js"></script>
-  </body>
-  <footer>
-    <hr />
-    <a href="https://www.twitch.tv/fawkes42022" target="_blank"
-    ><img src="image/twitch_social_icon.png"
+    <footer>
+      <hr />
+      <a href="https://www.twitch.tv/fawkes42022" target="_blank"
+      ><img src="image/twitch_social_icon.png" alt="Social Icon for Twitch"
+        /></a>
+      <a href="https://www.youtube.com/channel/UCrA_IpSWtHOvGp-9enHuPSw" target="_blank"
+        ><img src="image/youtube_social_icon.png" alt="Social Icon for Youtube"
       /></a>
-    <a href="https://www.youtube.com/channel/UCrA_IpSWtHOvGp-9enHuPSw" target="_blank"
-      ><img src="image/youtube_social_icon.png"
-    /></a>
-    <a href="https://www.facebook.com/" target="_blank"
-      ><img src="image/fb_social_icon.png"
-    /></a>
-    <a href="https://twitter.com/" target="_blank"
-      ><img src="image/twitter_icon.png"
-    /></a>
-    <a href="https://www.instagram.com/" target="_blank"
-      ><img src="image/instagram_social_icon.png"
-    /></a>
-    <a href="https://www.tiktok.com/en/" target="_blank"
-      ><img src="image/tiktok_icon.png"
-    /></a>
-  </footer>
+      <a href="https://www.facebook.com/" target="_blank"
+        ><img src="image/fb_social_icon.png" alt="Social Icon for Facebook"
+      /></a>
+      <a href="https://twitter.com/" target="_blank"
+        ><img src="image/twitter_icon.png" alt="Social Icon for Twitter"
+      /></a>
+      <a href="https://www.instagram.com/" target="_blank"
+        ><img src="image/instagram_social_icon.png" alt="Social Icon for Instagram"
+      /></a>
+      <a href="https://www.tiktok.com/en/" target="_blank"
+        ><img src="image/tiktok_icon.png" alt="Social Icon for Tik Tok"
+      /></a>
+    </footer>
+  </body>
 </html>
