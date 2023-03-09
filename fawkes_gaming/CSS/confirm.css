@@ -35,16 +35,32 @@ nav ul li a:focus {
 }
 /*Nav End*/
 
+/* Heading Start */
 h1 {
   text-align: center;
 }
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 300px;
+  fill: rgb(15, 15, 15);
+}
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Heading End */
+
+/* Main Content */
 p {
   text-align: center;
 }
 p a {
   display: inline-block;
   text-align: center;
-  text-decoration: none;
   color: rgb(15, 15, 15);
 }
 p a:hover {
@@ -53,6 +69,7 @@ p a:hover {
 p a:focus {
   color: rgb(68, 67, 67);
 }
+/* Main Content End */
 
 /* Footer Start */
 footer {
