@@ -46,27 +46,23 @@ h1 {
   width: 300px;
   fill: rgb(15, 15, 15);
 }
-#banner {
+.banner {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* Contact Form */
+#wrapper {
+  text-align: center;
+}
 form {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: left;
 }
 div {
   margin-bottom: 1em;
-}
-label {
-  display: inline-block;
-  width: 11em;
-  text-align: right;
-  vertical-align: top;
 }
 input,
 select,
@@ -74,30 +70,35 @@ textarea {
   margin-left: 1em;
   margin-right: 0.5em;
 }
-select {
-  width: 13em;
-}
 textarea {
   height: 5em;
   width: 20em;
 }
 span {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   color: red;
 }
-#submit:hover {
+#submit, #clear {
+  font-family: fantasy;
+}
+#submit:hover, #clear:hover {
   color: rgb(9, 190, 190);
 }
-#submit:focus {
+#submit:focus, #clear:focus {
   color: rgb(68, 67, 67);
 }
 /* Tabs Styling */
 #tabs {
 	min-height: 15em;
-	margin-bottom: 2em;
+	margin: 0;
   background-color: black;
 }
 #tabs-1, #tabs-2 {
 	margin-bottom: 0;
+}
+#tabs .ui-tabs {
+  text-align: center;
 }
 #tabs .ui-tabs-tab {
   background-color: black;
@@ -111,6 +112,10 @@ span {
 }
 #tabs .ui-tabs-panel {
   color: white;
+}
+.currentDate {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(157, 157, 157);
 }
 /* End Tabs Styling */
 /* End Contact Form */
