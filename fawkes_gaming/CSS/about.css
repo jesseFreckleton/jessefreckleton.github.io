@@ -43,7 +43,7 @@ nav ul li a:focus {
   width: 300px;
   fill: rgb(15, 15, 15);
 }
-#banner {
+.banner {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -55,6 +55,10 @@ h1 {
 }
 
 /* Drop down About */
+#wrapper {
+  width: 60em;
+  margin: auto;
+}
 .ui-accordion {
   background-color: rgb(9, 190, 190);
   text-align: center;
@@ -74,10 +78,11 @@ h1 {
 #accordion .ui-accordion-content {
   background-image: linear-gradient(
     to right,
-    rgb(0, 0, 0),
+    rgb(104, 103, 103),
     white,
-    rgb(0, 0, 0)
+    rgb(104, 103, 103)
   );
+  outline: solid .05em rgb(9, 190, 190);
 }
 #accordion .ui-accordion-content ul {
   background-image: none;
