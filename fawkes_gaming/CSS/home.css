@@ -35,6 +35,7 @@ nav ul li a:focus {
 }
 /*Nav End*/
 
+/* Header Start */
 #logo {
   display: block;
   margin-left: auto;
@@ -43,36 +44,35 @@ nav ul li a:focus {
   width: 300px;
   fill: rgb(15, 15, 15);
 }
-#banner {
+.banner {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/* Header End */
 
 /* Main Content */
-#image_list {
-  display: none;
-}
-p {
-  padding: 0.5em 0;
+h1, h2, h3 {
   text-align: center;
 }
-p img {
+#homeGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 0;
+}
+#homeGallery img {
   margin: 1em;
   border: solid black;
 }
-#seeMore {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
+h2 a {
   color: rgb(15, 15, 15);
 }
-#parentSeeMore {
-  text-align: center;
+h2 a:hover {
+  color: rgb(9, 190, 190);
 }
-#pageRight {
-  display: inline-block;
-  vertical-align: middle;
+h2 a:focus {
+  color: rgb(68, 67, 67);
 }
 /* End Main Content */
 
