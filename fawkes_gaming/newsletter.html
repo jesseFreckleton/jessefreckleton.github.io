@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <link rel="stylesheet" href="CSS/jquery-ui.min.css">
+    <title>Fawkes Gaming</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="games.html">Game Clips</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+      </ul>
+    </nav>
+    <main>
+      <a href="home.html"><img id="logo" alt="Fawkes Gaming Logo" src="image/fawkesgaming.svg" /></a>
+      <h1>Newsletter</h1>
+      <img class="banner" src="image/line.png" alt="Solid turqoise line to seperate page content"/>
+      <!--Newsletter Form-->
+      <div id="wrapper">
+        <form id="newsletter_form" name="newsletter_form" action="newsletter_confirm.html" method="post">
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1" id="detailsTab">Sign Up<span>*</span></a></li>
+              <li><a href="#tabs-2">Optional Message</a></li>
+            </ul>
+            <!--Details Tab-->
+            <div id="tabs-1">
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+                <span>*</span>
+              </div>
+              <div>
+                <label for="email">E-Mail:</label>
+                <input type="text" name="email" id="email" />
+                <span>*</span>
+              </div>
+              <div>
+                <label for="phone">Mobile Phone:</label>
+                <input type="text" name="phone" id="phone" />
+                <span>*</span>
+              </div>
+              <div><label class="currentDate"></label></div>
+            </div>
+            <!--End Details Tab-->
+            <!--Message Tab-->
+            <div id="tabs-2">
+              <div>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+              </div>
+              <div><label class="currentDate"></label></div>
+            </div>
+            <!--End Message Tab-->
+            <div id="submit_button">
+              <label>&nbsp;</label>
+              <input type="submit" id="submit" value="Sign Up" />
+              <input type="button" id="clear" value="Clear">
+            </div>
+          </div>
+        </form>
+        <!--End Newsletter Form-->
+      </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="java_script/jquery-ui.min.js"></script>
+    <script src="java_script/newsletter.js"></script>
+    <footer>
+      <hr />
+      <a href="https://www.twitch.tv/fawkes42022" target="_blank"
+      ><img src="image/twitch_social_icon.png" alt="Social Icon for Twitch"
+        /></a>
+      <a href="https://www.youtube.com/channel/UCrA_IpSWtHOvGp-9enHuPSw" target="_blank"
+        ><img src="image/youtube_social_icon.png" alt="Social Icon for Youtube"
+      /></a>
+      <a href="https://www.facebook.com/" target="_blank"
+        ><img src="image/fb_social_icon.png" alt="Social Icon for Facebook"
+      /></a>
+      <a href="https://twitter.com/" target="_blank"
+        ><img src="image/twitter_icon.png" alt="Social Icon for Twitter"
+      /></a>
+      <a href="https://www.instagram.com/" target="_blank"
+        ><img src="image/instagram_social_icon.png" alt="Social Icon for Instagram"
+      /></a>
+      <a href="https://www.tiktok.com/en/" target="_blank"
+        ><img src="image/tiktok_icon.png" alt="Social Icon for Tik Tok"
+      /></a>
+    </footer>
+  </body>
+</html>
