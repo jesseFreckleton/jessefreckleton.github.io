@@ -13,7 +13,7 @@ $(document).ready( () => {
   
     var today = new Date();
     today.setDate(today.getDate() + 1);
-    $(".currentDate").html(dayNames[today.getDay()] + " - " + monthNames[today.getMonth()] + " " + today.getDate() + ", " + today.getFullYear());
+    $(".currentDate").html(dayNames[today.getDay()] + " - " + monthNames[today.getMonth()] + " " + today.getDate() + ", " + today.getFullYear() + " " + today.getHours() + ":" + today.getMinutes());
 
   // Handle Submit
   $("#newsletter_form").submit( evt => {
