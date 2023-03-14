@@ -28,7 +28,7 @@ nav ul li a {
   color: black;
 }
 nav ul li a:hover {
-  color: rgb(9, 190, 190);
+  color: rgb(23, 12, 145);
 }
 nav ul li a:focus {
   color: rgb(68, 67, 67);
@@ -83,7 +83,7 @@ span {
   font-family: fantasy;
 }
 #submit:hover, #clear:hover {
-  color: rgb(9, 190, 190);
+  color: rgb(23, 12, 145);
 }
 #submit:focus, #clear:focus {
   color: rgb(68, 67, 67);
@@ -104,7 +104,7 @@ span {
   background-color: black;
 }
 #tabs .ui-tabs-anchor {
-  background-color: rgb(9, 190, 190);
+  background-color: rgb(23, 12, 145);
   color: black;
 }
 #tabs .ui-tabs-anchor:hover {
