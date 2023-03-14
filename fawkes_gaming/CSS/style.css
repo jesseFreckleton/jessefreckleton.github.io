@@ -27,7 +27,7 @@ ul li a {
   color: black;
 }
 nav ul li a:hover {
-  color: rgb(9, 190, 190);
+  color: rgb(23, 12, 145);
 }
 nav ul li a:focus {
   color: rgb(68, 67, 67);
@@ -42,7 +42,7 @@ nav ul li a:focus {
   transition: all 0.5s;
 }
 svg:hover .fglogo {
-  fill: rgb(9, 190, 190);
+  fill: rgb(23, 12, 145);
   transform: scale(1.3);
   cursor: pointer;
 }
