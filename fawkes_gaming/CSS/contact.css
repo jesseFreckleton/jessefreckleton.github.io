@@ -4,6 +4,8 @@
   font-family: fantasy;
 }
 body {
+  height: 100px;
+  width: 100%;
   background-image: linear-gradient(
     to right,
     rgb(0, 0, 0),
