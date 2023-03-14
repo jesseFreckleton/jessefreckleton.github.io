@@ -28,7 +28,7 @@ nav ul li a {
   color: black;
 }
 nav ul li a:hover {
-  color: rgb(9, 190, 190);
+  color: rgb(23, 12, 145);
 }
 nav ul li a:focus {
   color: rgb(68, 67, 67);
@@ -60,7 +60,7 @@ h1 {
   margin: auto;
 }
 .ui-accordion {
-  background-color: rgb(9, 190, 190);
+  background-color: rgb(23, 12, 145);
   text-align: center;
 }
 #accordion .ui-accordion-header {
@@ -70,7 +70,7 @@ h1 {
   color: rgb(68, 67, 67);
 }
 #accordion .ui-accordion-header-active {
-  border-color: rgb(9, 190, 190);
+  border-color: rgb(23, 12, 145);
 }
 #accordion .ui-accordion-header a {
   color: white;
@@ -82,7 +82,7 @@ h1 {
     white,
     rgb(104, 103, 103)
   );
-  outline: solid .05em rgb(9, 190, 190);
+  outline: solid .05em rgb(23, 12, 145);
 }
 #accordion .ui-accordion-content ul {
   background-image: none;
