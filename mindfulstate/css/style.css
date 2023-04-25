@@ -1,0 +1,138 @@
+.parallax-header {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/mainpagebackground.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    background-color: #666666;
+    position: fixed;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav a {
+    text-decoration: none;
+    color: #288343;
+    text-shadow: 0 0 5px #000;
+}
+.nav a:hover {
+    color: #35ae59;
+}
+
+.header-content {
+    padding: 100px 0 150px 0;
+}
+
+h1 h2 {
+    text-shadow: 0 0 5px #000;
+}
+
+.sectionTitle {
+    padding-left: 10px;
+}
+.articleTitle {
+    text-shadow: 0 0 5px #000;
+}
+#aboutContent {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/pocket-watch.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.contentw {
+    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: #666666;
+    margin-top: -80px;
+}
+.content {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/forest.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.content .contentw .left{
+    padding-top: 20px;
+}
+
+.content .contentw .right{
+    padding: 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+.content .bottom {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/forest.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.primary-color {
+    color: #288343;
+}
+.author {
+    background: #747574;
+}
+/* Contact Form */
+form {
+  margin: 0 auto;
+  text-align: left;
+}
+div {
+  margin-bottom: 1em;
+}
+input,
+select,
+textarea {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+textarea {
+  height: 5em;
+  width: 20em;
+}
+span {
+  font-weight: bold;
+  color: red;
+}
+#submit:hover, #clear:hover {
+  color: #35ae59;
+}
+#submit:focus, #clear:focus {
+  color: #666666;
+}
+/* End Contact Form */
+#social {
+    text-align: center;
+}
+#form_confirm {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/forest.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    color: #fff;
+}
+#feedback {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/beach-g07ef5ce5e_1280.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
