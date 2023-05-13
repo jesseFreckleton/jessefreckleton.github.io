@@ -1,0 +1,54 @@
+form div {
+    margin: 10px;
+}
+form {
+    border: .15rem solid #4d9078ff;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: .30rem;
+    color: #e4dfdaff;
+    background: rgba(26, 26, 26, 0.95);
+}
+input {
+    border-radius: .25rem;
+    background-color: #2d3a3aff;
+    color: #e4dfdaff;
+    line-height: 2rem;
+    width: 25rem;
+    transition: all .5s ease;
+}
+input:focus {
+    font-size: 1.35rem;
+    padding: 10px;
+    border-radius: .25rem;
+    border: 2px solid #7f7effff;
+    outline: none;
+}
+textarea {
+    height: 10rem;
+    width: 25rem;
+}
+#submit {
+    text-align: center;
+    height: auto;
+    width: 5rem;
+    background: linear-gradient(#4d9078ff, #686868);
+}
+.btn {
+    text-align: center; 
+    color: #e4dfdaff;
+}
+#submit:hover {
+    color: #7f7effff;
+}
+#submit:active {
+    color: rgba(126, 126, 255, 0.541);
+    font-size: 0;
+}
+#submit:visited {
+    color: #2d3a3aff;
+    font-size: 0;
+}
+.btn input {
+    background-color: #4d9078ff;
+}
