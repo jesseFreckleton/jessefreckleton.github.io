@@ -40,9 +40,9 @@
 .key {
     position: relative;
     display: inline-block;
-    bottom: -20px;
+    bottom: -0.8em;
     opacity: 0;
-    margin: -2px;
+    margin: -8em;
 }
 .key.active {
     bottom: 0;
@@ -50,7 +50,7 @@
     transition: ease-in-out 0.5s;
 }
 .key.fade {
-    bottom: 150px;
+    bottom: 0.106em;
     opacity: 0;
     transition: ease-in-out 0.5s;
 }
@@ -88,8 +88,8 @@ main {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 8em;
+    margin-right: 8em;
 }
 h1, h2 {
     border-radius: .25rem;
