@@ -17,6 +17,9 @@
 }
 
 /* Landing Page */
+#lastName {
+    margin-left: 1em;
+}
 .intro {
     position: fixed;
     z-index: 1;
