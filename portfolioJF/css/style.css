@@ -32,30 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     transition: 1s;
-}
-.landingKeyboard {
     text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-30%, -30%);
-}
-.key {
-    position: relative;
-    display: inline-block;
-    bottom: -0.8em;
-    opacity: 0;
-    margin: -8em;
-}
-.key.active {
-    bottom: 0;
-    opacity: 1;
-    transition: ease-in-out 0.5s;
-}
-.key.fade {
-    bottom: 0.106em;
-    opacity: 0;
-    transition: ease-in-out 0.5s;
 }
 /* Landing Page END */
 
